@@ -1,0 +1,10 @@
+# backup
+*~
+*.orig
+
+# IDEA
+.idea/
+*.iml
+
+# OSX
+.DS_Store
