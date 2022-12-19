@@ -1,8 +1,29 @@
 plugins {
     id "de.dfki.mary.lexicon-compiler" version "0.1.1"
+    id 'maven-publish'
 }
 
 group 'de.dfki.mary'
 version '0.1.0-SNAPSHOT'
 
+ext {
+    isReleaseVersion = !version.endsWith("SNAPSHOT")
+}
+
 sourceCompatibility = 1.8
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            name 'OSSRH'
+            url isReleaseVersion ? 'https://oss.sonatype.org/service/local/staging/deploy/maven2/'
+                    : 'https://oss.sonatype.org/content/repositories/snapshots'
+            credentials(PasswordCredentials)
+        }
+    }
+}
