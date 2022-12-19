@@ -10,7 +10,13 @@ ext {
     isReleaseVersion = !version.endsWith("SNAPSHOT")
 }
 
-sourceCompatibility = 1.8
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
+    withSourcesJar()
+    withJavadocJar()
+}
 
 publishing {
     publications {
