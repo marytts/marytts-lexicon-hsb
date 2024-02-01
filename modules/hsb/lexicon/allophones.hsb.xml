@@ -92,19 +92,21 @@
 
   <vowel ph="EI" ipa="ɛj" vlng="d" vheight="2" vfront="1" vrnd="-"/>
 
-  <!--oder lieber morpholoɡische Grenzen markieren? mit Script automatisch je nach Position? Ziel: ingesamt weniger Aufwand-->
+  <!--unaspiriert-->
 
   <consonant ph="p" ipa="p" ctype="s" cplace="l" cvox="-"/>
 
   <consonant ph="t" ipa="t" ctype="s" cplace="a" cvox="-"/>
 
   <consonant ph="k" ipa="k" ctype="s" cplace="v" cvox="-"/>
+  <!--indigen aspiriert-->
 
   <consonant ph="pH" ipa="pʰ" ctype="s" cplace="l" cvox="-"/>
 
   <consonant ph="tH" ipa="tʰ" ctype="s" cplace="a" cvox="-"/>
 
   <consonant ph="kH" ipa="kʰ" ctype="s" cplace="v" cvox="-"/>
+  <!--fremd aspiriert-->
 
   <consonant ph="pHH" ipa="pʰʰ" ctype="s" cplace="l" cvox="-"/>
 
