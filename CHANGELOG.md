@@ -4,6 +4,11 @@ Upper Sorbian lexicon for MaryTTS
 [Unreleased]
 ------------
 
+### Changed
+
+- Build with Gradle v7.6.4
+- Upgraded lexicon compiler plugin to v0.3.0
+
 [v0.1.1] - 2023-01-24
 ---------------------
 
