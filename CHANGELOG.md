@@ -4,6 +4,11 @@ Upper Sorbian lexicon for MaryTTS
 [Unreleased]
 ------------
 
+### Added
+
+- Schwa variant `@/` to allophone set
+- More than 27k lexicon entries
+
 ### Changed
 
 - Build with Gradle v7.6.4
