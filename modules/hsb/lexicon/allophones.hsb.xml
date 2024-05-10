@@ -20,6 +20,7 @@
   <vowel ph="o:" ipa="oː" vlng="l" vheight="2" vfront="3" vrnd="-"/>  <!-- deutscher Langvokal-->
   <vowel ph="U" ipa="ʊ" vlng="s" vheight="1" vfront="3" vrnd="+"/>
   <vowel ph="@" ipa="ə" vlng="s" vheight="2" vfront="2" vrnd="-"/>
+  <vowel ph="@/" ipa="ɘ" vlng="s" vheight="2" vfront="2" vrnd="-"/>
   <vowel ph="e" ipa="e" vlng="s" vheight="2" vfront="1" vrnd="-"/>
   <vowel ph="2" ipa="ø" vlng="s" vheight="2" vfront="1" vrnd="+"/>
   <vowel ph="2:" ipa="øː" vlng="l" vheight="2" vfront="1" vrnd="+"/>
@@ -44,13 +45,15 @@
   <vowel ph="OY" ipa="ɔj" vlng="d" vheight="2" vfront="3" vrnd="+"/>
   <vowel ph="aU" ipa="aw" vlng="d" vheight="3" vfront="2" vrnd="+"/>
   <vowel ph="EI" ipa="ɛj" vlng="d" vheight="2" vfront="1" vrnd="-"/>
-  <!--oder lieber morpholoɡische Grenzen markieren? mit Script automatisch je nach Position? Ziel: ingesamt weniger Aufwand-->
+  <!--unaspiriert-->
   <consonant ph="p" ipa="p" ctype="s" cplace="l" cvox="-"/>
   <consonant ph="t" ipa="t" ctype="s" cplace="a" cvox="-"/>
   <consonant ph="k" ipa="k" ctype="s" cplace="v" cvox="-"/>
+  <!--indigen aspiriert-->
   <consonant ph="pH" ipa="pʰ" ctype="s" cplace="l" cvox="-"/>
   <consonant ph="tH" ipa="tʰ" ctype="s" cplace="a" cvox="-"/>
   <consonant ph="kH" ipa="kʰ" ctype="s" cplace="v" cvox="-"/>
+  <!--fremd aspiriert-->
   <consonant ph="pHH" ipa="pʰʰ" ctype="s" cplace="l" cvox="-"/>
   <consonant ph="tHH" ipa="tʰʰ" ctype="s" cplace="a" cvox="-"/>
   <consonant ph="kHH" ipa="kʰʰ" ctype="s" cplace="v" cvox="-"/>
@@ -65,6 +68,7 @@
   <consonant ph="S" ipa="ʃ" ctype="f" cplace="p" cvox="-"/>
   <consonant ph="Z" ipa="ʒ" ctype="f" cplace="p" cvox="+"/>
   <consonant ph="x" ipa="x" ctype="f" cplace="u" cvox="-"/>
+  <consonant ph="G" ipa="ɣ" ctype="f" cplace="u" cvox="+"/>
   <consonant ph="C" ipa="ç" ctype="f" cplace="p" cvox="-"/>
   <consonant ph="h" ipa="h" ctype="f" cplace="g" cvox="-"/>
 <!-- <consonant ph="h" ipa="h" ctype="f" cplace="g" cvox="+"/> stimmhafte Variante? oder mit Regeln bestimmen-->
@@ -81,6 +85,7 @@
   <consonant ph="w" ipa="w" ctype="r" cplace="l" cvox="+"/>
   <consonant ph="j" ipa="j" ctype="r" cplace="p" cvox="+"/>
   <consonant ph="R" ipa="ʁ" ctype="l" cplace="u" cvox="+"/>
+  <consonant ph="r" ipa="ʀ" ctype="l" cplace="u" cvox="+"/>
   
   <consonant ph="?" ipa="ʔ" ctype="s" cplace="g" cvox="-"/>
   
@@ -96,7 +101,7 @@
   <consonant ph="kH*j" ipa="kʰʲ" ctype="s" cplace="v" cvox="-"/>
   <consonant ph="x*j" ipa="xʲ" ctype="f" cplace="u" cvox="-"/>
  <!-- silbenbildende Konsonanten, l n m -->
- <consonant ph="l;" ipa="̩l̩" ctype="l" cplace="a" cvox="+"/>
+ <consonant ph="l;" ipa="l̩" ctype="l" cplace="a" cvox="+"/>
  <consonant ph="n;" ipa="n̩" ctype="n" cplace="a" cvox="+"/>
  <consonant ph="m;" ipa="m̩" ctype="n" cplace="a" cvox="+"/>
  <!-- <consonant ph="§" ipa="ˌ"/> -->
