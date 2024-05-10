@@ -4,6 +4,9 @@ Upper Sorbian lexicon for MaryTTS
 [Unreleased]
 ------------
 
+[v0.2.0] - 2024-05-10
+---------------------
+
 ### Added
 
 - Schwa variant `@/` to allophone set
@@ -31,5 +34,6 @@ Initial release
 - Artifact hosting on Maven Central
 
 [Unreleased]: https://github.com/marytts/marytts-lexicon-hsb/tree/master
+[v0.2.0]: https://github.com/marytts/marytts-lexicon-hsb/releases/tag/v0.2.0
 [v0.1.1]: https://github.com/marytts/marytts-lexicon-hsb/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/marytts/marytts-lexicon-hsb/releases/tag/v0.1.0
