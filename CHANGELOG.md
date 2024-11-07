@@ -4,6 +4,10 @@ Upper Sorbian lexicon for MaryTTS
 [Unreleased]
 ------------
 
+### Fixed
+
+- JTok dependency resolution
+
 [v0.2.0] - 2024-05-10
 ---------------------
 
